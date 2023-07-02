@@ -1,5 +1,5 @@
 import requests
-from dotenv import load_dotenv
+
 import streamlit as st
 from transformers import pipeline
 import base64
@@ -7,7 +7,7 @@ import base64
 # streamlit run app.py --server.clearCache
 
 def main():
-    load_dotenv()
+    
     st.set_page_config(page_title="Ask your GitHub Repository")
     st.header(" Mercor Hackathon - Ask your GitHub Repository 💬")
 
